@@ -1,0 +1,113 @@
+/***************************general*******************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+/***************************header**************/
+header{
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+.image-simpson{
+    width: 100%;
+    background-image:url('./img/Simpsons.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    vertical-align: bottom;
+}
+/***************************main*********/
+main{
+    background-color: white;
+}
+main h1{
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/******************nav*****************/
+ul {
+    list-style-type: none;
+    padding: 15px 0;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    border-bottom: 3px dashed rgb(0, 103, 143);
+}
+
+li{
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #111;
+}
+
+
+/******************article*****************/
+.flex{
+    display: flex;
+    
+}
+
+article{
+    width: 65%;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+#image-movie{ 
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+#image-movie img {
+    width: 33%;
+    height: auto ;
+    vertical-align: middle;
+    border: 2px solid grey ;
+  }
+
+/******************aside*****************/
+aside{
+    width: 30%;
+    margin: 20px 0 20px 15px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border: solid 1px rgb(0, 183, 255);
+    text-align: justify;
+    padding: 0 20px;
+
+}
+.image-matt {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 15px 0;
+    
+}
+
+/******************footer*****************/
+footer{
+    background-color: rgb(0, 38, 255);
+    color: white;
+    text-align: center;
+}

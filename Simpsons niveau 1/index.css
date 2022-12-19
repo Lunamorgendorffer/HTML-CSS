@@ -1,0 +1,96 @@
+/***************************general*******************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+#container{
+    margin: 0px 200px;
+}
+
+/***************************header**************/
+header{
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+.image-simpson{
+    width: 100%;
+    background-image:url('./img/Simpsons.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    vertical-align: bottom;
+}
+/***************************main*********/
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: row; 
+}
+main h1{
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 15px;
+    gap: 15px;
+}
+
+/******************nav*****************/
+nav{
+
+    width: 15%;
+    height: fit-content;
+    padding: 15px 0;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    border: solid 1px rgb(0, 183, 255);
+}
+ul {
+    list-style: none;
+}
+a{
+    color: white;
+}
+
+/******************article*****************/
+article{
+    width: 65%;
+    text-align: justify;
+}
+
+/******************aside*****************/
+aside{
+    width: 20%;
+    margin-bottom: 20px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border: solid 1px rgb(0, 183, 255);
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.image-matt {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 15px 0;
+    
+}
+
+/******************footer*****************/
+footer{
+    background-color: rgb(0, 38, 255);
+    color: white;
+    text-align: center;
+}
