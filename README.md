@@ -1,5 +1,7 @@
 Site-web-Simpson-responsive
 
-Ce dossier comporte un fichier HTML5, un dossier CSS avec un fichier CSS3 et un dossier comportant des images.
+Ce dossier comporte un fichier HTML5, un fichier CSS3 et un dossier comportant des images.
 
-C'est une réplique (uniquement de la partie Front-end) d'un site que l'on voit régulièrement sur le web. Le thème est ici la série : Les Simpson de Matt Groening.
+C'est la réplique d'une page web statique et adaptable  (uniquement de la partie Front-end). 
+
+Le thème est ici la série : Les Simpson de Matt Groening.
