@@ -120,7 +120,54 @@ header nav ul {
     width: 50%;
 }
 
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+}
 
+.features h2 {
+    font-weight: 600;
+    font-size: 2rem;
+}
 
+.subhead {
+    margin-top: 15px;
+    width: 20%;
+    color: grey;
+}
 
+.features .cards {
+    margin: 100px;
+    display: flex;
+}
+
+.card {
+    background: #1294b8;
+    color: white;
+    margin: 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 30vh;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.description {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
 
